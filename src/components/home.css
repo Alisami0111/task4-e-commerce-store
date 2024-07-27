@@ -1,0 +1,157 @@
+#hero{
+    height: 87vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero{
+    height: 90%;
+    width: 80%;
+    border: 1px solid rgba(0, 0, 0, 0.438);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.hero .left{
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero .left h3{
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.hero .left p{
+    font-size: 23px;
+    
+}
+
+.hero .left button{
+    font-size: 25px;
+    color: beige;
+    background-color: black;
+    padding: 5px 35px;
+    border: none;
+    outline: none;  
+    border-radius: 20px;
+}
+
+.hero .left button a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.hero .right{
+    flex: 1;
+
+}
+
+#about{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.about{
+    height: 90%;
+    width: 80%;
+    border: 1px solid rgba(0, 0, 0, 0.438);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    
+
+}
+
+.about h2{
+    font-size: 35px;
+    font-weight: bold;
+    border-bottom: 3px solid black;
+
+}
+
+#contact{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contact{
+    height: 90%;
+    width: 80%;
+    border: 1px solid rgba(0, 0, 0, 0.438);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    
+
+}
+
+.contact h2{
+    font-size: 35px;
+    font-weight: bold;
+    border-bottom: 3px solid black;
+    margin-bottom: 70px;
+
+}
+
+.contact form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact form input{
+    width: 600px;
+    font-size: 18px;
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.438);
+    outline:  none;
+    border-radius: 5px;
+}
+
+.contact form textarea{
+    width: 600px;
+    font-size: 18px;
+    padding: 5px;
+    height: 100px;
+    border: 1px solid rgba(0, 0, 0, 0.438);
+    outline:  none;
+    
+}
+.contact form button{
+    font-size: 25px;
+    color: beige;
+    background-color: black;
+    padding: 5px 35px;
+    border: none;
+    outline: none;  
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
